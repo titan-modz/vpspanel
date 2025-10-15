@@ -11,13 +11,10 @@
 2.Install Basics:
 `apt update && apt install zip -y && unzip vps_panel_project.zip -d vps_panel_project`
 
-3.Enter The Dictionary:
-`cd vpspanel`
-
-4. Build the Docker image:
+3. Build the Docker image:
 `docker build -t vpspanel .`
 
-5. Run the container:
+4. Run the container:
 `docker run -it -p 5000:5000 -v /var/run/docker.sock:/var/run/docker.sock vpspanel`
 
 ## License

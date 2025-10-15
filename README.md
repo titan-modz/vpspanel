@@ -5,6 +5,7 @@
 ## Installation
 1. Clone the repository or download:
 `git clone https://github.com/titan-modz/vpspanel`
+
 `cd vpspanel`
 
 2.Install Basics:
